@@ -8,18 +8,18 @@ Programmers 코딩 테스트를 통해 프로그래밍 기초를 다지고 다�
 
 ### 코딩 기초 트레이닝 캘린더
 
-- Day1
-- Day2
-- Day3
-- Day4
-- Day5
-- Day6
-- Day7
-- Day8
-- Day9
-- Day10
-- Day11
-- Day12
-- Day13
-- Day14
-- Day15
+- [Day1](https://github.com/leeseungje/programmers/tree/main/Day1) (**진행완료**)
+- [Day2](https://github.com/leeseungje/programmers/tree/main/Day2)
+- [Day3](https://github.com/leeseungje/programmers/tree/main/Day3)
+- [Day4](https://github.com/leeseungje/programmers/tree/main/Day4)
+- [Day5](https://github.com/leeseungje/programmers/tree/main/Day5)
+- [Day6](https://github.com/leeseungje/programmers/tree/main/Day6)
+- [Day7](https://github.com/leeseungje/programmers/tree/main/Day7)
+- [Day8](https://github.com/leeseungje/programmers/tree/main/Day8)
+- [Day9](https://github.com/leeseungje/programmers/tree/main/Day9)
+- [Day10](https://github.com/leeseungje/programmers/tree/main/Day10)
+- [Day11](https://github.com/leeseungje/programmers/tree/main/Day11)
+- [Day12](https://github.com/leeseungje/programmers/tree/main/Day12)
+- [Day13](https://github.com/leeseungje/programmers/tree/main/Day13)
+- [Day14](https://github.com/leeseungje/programmers/tree/main/Day14)
+- [Day15](https://github.com/leeseungje/programmers/tree/main/Day15)
