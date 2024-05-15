@@ -9,7 +9,7 @@ Programmers 코딩 테스트를 통해 프로그래밍 기초를 다지고 다�
 ### 코딩 기초 트레이닝 캘린더
 
 - [Day1](https://github.com/leeseungje/programmers/tree/main/Day1) (**진행완료**)
-- [Day2](https://github.com/leeseungje/programmers/tree/main/Day2)
+- [Day2](https://github.com/leeseungje/programmers/tree/main/Day2) (**진행완료**)
 - [Day3](https://github.com/leeseungje/programmers/tree/main/Day3)
 - [Day4](https://github.com/leeseungje/programmers/tree/main/Day4)
 - [Day5](https://github.com/leeseungje/programmers/tree/main/Day5)
