@@ -93,4 +93,60 @@ function solution(n, control) {
 
 ## 수열과 구간 쿼리3
 
+정수 배열 `arr`와 2차원 정수 배열 `queries`이 주어집니다. `queries`의 원소는 각각 하나의 `query`를 나타내며, `[i, j]` 꼴입니다.<br />
+각 `query`마다 순서대로 `arr[i]`의 값과 `arr[j]`의 값을 서로 바꿉니다.<br />
+위 규칙에 따라 `queries`를 처리한 이후의 `arr`를 return 하는 solution 함수를 완성해 주세요.
+
+#### 제한 사항
+
+- 1 ≤ `arr`의 길이 ≤ 1,000
+  - 0 ≤ `arr`의 원소 ≤ 1,000,000
+- 1 ≤ `queries`의 길이 ≤ 1,000
+  - 0 ≤ i < j < `arr`의 길이
+
+```javascript
+function solution(arr, queries) {
+  for (let i of queries) {
+    let temp = arr[i[0]]
+    arr[i[0]] = arr[i[1]]
+    arr[i[1]] = temp
+  }
+  return arr
+}
+```
+
 ## 수열과 구간 쿼리2
+
+정수 배열 `arr`와 2차원 정수 배열 `queries`이 주어집니다. `queries`의 원소는 각각 하나의 `query`를 나타내며, `[s, e, k]` 꼴입니다.<br />
+각 `query`마다 순서대로 `s` ≤ `i` ≤ `e`인 모든 `i`에 대해 `k`보다 크면서 가장 작은 `arr[i]`를 찾습니다.<br />
+각 쿼리의 순서에 맞게 답을 저장한 배열을 반환하는 `solution` 함수를 완성해 주세요.<br />
+단, 특정 쿼리의 답이 존재하지 않으면 -1을 저장합니다.
+
+#### 제한 사항
+
+- 1 ≤ arr의 길이 ≤ 1,000
+  - 0 ≤ arr의 원소 ≤ 1,000,000
+- 1 ≤ queries의 길이 ≤ 1,000
+  - 0 ≤ s ≤ e < arr의 길이
+  - 0 ≤ k ≤ 1,000,000
+
+```javascript
+function solution(arr, queries) {
+  let result = []
+
+  for (let query of queries) {
+    const [s, e, k] = query
+    let minNum = Infinity
+
+    for (let i = s; i <= e; i++) {
+      if (arr[i] > k && arr[i] < minNum) {
+        minNum = arr[i]
+      }
+    }
+
+    result.push(minNum === Infinity ? -1 : minNum)
+  }
+
+  return result
+}
+```
