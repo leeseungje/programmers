@@ -14,7 +14,7 @@ Programmers 코딩 테스트를 통해 프로그래밍 기초를 다지고 다�
 - [Day4](https://github.com/leeseungje/programmers/tree/main/Day4) (**진행완료**)
 - [Day5](https://github.com/leeseungje/programmers/tree/main/Day5) (**진행완료**)
 - [Day6](https://github.com/leeseungje/programmers/tree/main/Day6) (**진행완료**)
-- [Day7](https://github.com/leeseungje/programmers/tree/main/Day7)
+- [Day7](https://github.com/leeseungje/programmers/tree/main/Day7) (**진행중**)
 - [Day8](https://github.com/leeseungje/programmers/tree/main/Day8)
 - [Day9](https://github.com/leeseungje/programmers/tree/main/Day9)
 - [Day10](https://github.com/leeseungje/programmers/tree/main/Day10)
